@@ -11,7 +11,7 @@ To test this theory, I filtered database of all 2023 batters by three separate m
 - The second was number of runnners on base. If my theory is true, then the OPS of all hitters should increase with more runners on base.
 - The third was Baseball Reference's Leverage Index, LI. This is a scale for how important any single at-bat is to the outcome of the game, with higher LI corresponding to a more pivotal moment. I threw this in out of curiousity to see whether pitchers or hitters performed better in high leverage situations.
 
-I split each of the three test metrics into quartiles (for runners on base, I just used 0, 1, 2, and 3) and then took the average OPS in each situation. The results can be seen pictorally in results.png, but I will explain them here.
+I split each of the three test metrics into quartiles (for runners on base, I just used 0, 1, 2, and 3) and then took the average OPS in each situation. The results can be seen pictorally in LineupProt1.png, but I will explain them here.
 
 First, lineup protection. The first quartile has a low OPS, but each of the other three are roughly equal. This tells me that batting in front of a very porr hitter may be detrimental, but batting in front of a superstar is not beneficial. Another consideration is the construction of the lineup; batters batting in front of poor hitters are likely also poor hitters, and same for stars; batters are generally grouped together in the lineup based on production. Therefore, it is surprising to me to see no meaningful correlation between OPS and on-deck OPS. I thought I would have to do some normalization to see that result. Therefore, the idea that batting in front of a star hitter will raise your OPS is debunked.
 
